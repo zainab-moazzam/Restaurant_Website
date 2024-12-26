@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('background.png');
+    height: 99%;
+    width: 97%;
+    background-size: cover;
+}
+header{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(151, 49, 49);
+    color: rgb(245, 231, 178);
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+}
