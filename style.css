@@ -45,6 +45,7 @@ body{
     background-image: url("bars.png");
     height: 190px;
     width: 150px; 
+    width: 150px; /* Specify width for proper scaling */
     background-size: cover;
     background-repeat: no-repeat;  
 }
