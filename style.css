@@ -3,6 +3,11 @@
     font-family: inter;
     border: border-box;
 }
+body{
+    background-image:url('background.png');
+    background-size:100%;
+    
+}
 .navbar{
     height: 200px;
     background-color: rgb(151, 49, 49);
