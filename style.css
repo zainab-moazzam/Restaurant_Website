@@ -1,23 +1,29 @@
 *{
     margin: 0;
-    padding: 0;
+    font-family: inter;
+    border: border-box;
 }
-body{
-    background-image: url('background.png');
-    height: 99%;
-    width: 97%;
-    background-size: cover;
-}
-header{
-    margin: 0;
-    padding: 0;
+.navbar{
+    height: 200px;
     background-color: rgb(151, 49, 49);
+    display:flex ;
     color: rgb(245, 231, 178);
-    height: 120px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 80px;
-    align-items: center;
-    padding: 0px 40px;
+}
+.bars{
+    background-image: url("bars.png");
+    height: 190px;
+    width: 60%;
+    margin-left: 120px;
+    background-size:cover;
+}
+.nav-logo{
+    height: 240px;
+    width: 140px;
+}
+.logo{
+    background-image: url("logo.png");
+    height: 190px;
+    width: 140%;
+    margin-left: 60px;
+    background-size:cover;
 }
