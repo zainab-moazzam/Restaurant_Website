@@ -35,7 +35,7 @@ body{
     width: 370px;
     display: flex;
     align-items: center;
-    margin-left: -280px;
+    margin-left: -100px;
     margin-top: 20px;
 }
 .logo{
@@ -49,10 +49,10 @@ body{
     left: -180px;
 }
 nav{
-  position:relative;
-  left: -350px;
-  display: flex;
-  gap: 20px;
+    position:relative;
+    left: -200px;
+    display: flex;
+    gap: 20px;
 }
 a{
     padding: 5px 15px;
@@ -70,13 +70,46 @@ a:hover{
 .icon{
     position: relative;
     right: 20px;
+    font-size: 25px;
     display: flex;
     gap: 100px;
 }
-/*.nav-search{
-    font-size: 85px;
-    margin-left: 2800px;
+i:hover{
+    cursor: pointer;
 }
+.search{
+    
+}
+.icon input[type=text]{
+    font-size: 10px;
+    padding: 4px;
+    padding-left: 30px;
+    background-color: rgb(245, 231, 178);
+    border-radius: 25px;
+    border: none;
+    cursor: text ;
+    caret-color:rgb(151, 49, 49);
+}
+.icon input::placeholder{
+    color: rgb(151, 49, 49);
+    padding: 7px;
+
+}
+.icon button{
+    font-size: 25px;
+    background:none;
+    color: rgb(245, 231, 178);
+    padding-left: 5px ;
+    border:none;
+}
+main{
+    padding: 0px;
+    height: 20px;
+    width:auto;
+    size: 100px;
+    font-size: x-larges;
+}
+.icon
 /*.nav-user{
     font-size: 85px;
     margin-left: 350px;
